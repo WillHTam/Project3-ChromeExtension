@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Stashr for Chrome",
+  "description": "Stashes the Current Page",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Stasher"
+  },
+  "permissions": [
+    "tabs",
+    "https://ajax.googleapis.com/"
+  ]
+}
